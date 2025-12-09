@@ -19,20 +19,20 @@ Alternatively, you can use the provided helper script.
 
 ## 📥 Fetching Inputs
 
-A helper script `get-input.py` is included to automatically download your puzzle input.
+A helper script `setup-day.py` is included to automatically download your puzzle input and set up the day's folder.
 
 1. Get your session cookie from the Advent of Code website (inspect network requests or check storage).
 2. Save the cookie string into a file named `cookie.txt` in the root directory.
 3. Run the script with the day number:
 
 ```bash
-python get-input.py <day>
+python setup-day.py <day>
 ```
 
 For example, to fetch the input for Day 1:
 
 ```bash
-python get-input.py 1
+python setup-day.py 1
 ```
 
 This will create the `day01` folder (if it doesn't exist) and save the input to `day01/input.txt`.
