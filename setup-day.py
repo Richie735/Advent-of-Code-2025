@@ -11,12 +11,12 @@ import sys
 sys.path.append(str(pathlib.Path(__file__).parent.parent))
 from utils import read_input
 
-def solve_part1(data: list[str]) -> int:
+def solve_part1(data):
     # Solves Part 1
     # TODO: Help the elves! 🧝
     return 0
 
-def solve_part2(data: list[str]) -> int:
+def solve_part2(data):
     # Solves Part 2
     # TODO: Save Christmas! 🎅
     return 0
